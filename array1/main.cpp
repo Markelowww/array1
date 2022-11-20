@@ -15,5 +15,6 @@ int main() {
 	FillArray(size64, myArray);
 	int64_t* min = arraIntMin(myArray, size64);
 	perform(min);
+	free(myArray);
 	return 0;
 }
