@@ -12,8 +12,7 @@ int main() {
 		return 0;
 	}
 	int64_t* myArray = (int64_t*)malloc(sizeof(int64_t) * size64);
-	int64_t element64 = 0;
-	FillArray(size64, element64, myArray);
+	FillArray(size64, myArray);
 	int64_t* min = arraIntMin(myArray, size64);
 	perform(min);
 	return 0;
