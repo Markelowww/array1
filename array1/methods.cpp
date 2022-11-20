@@ -14,15 +14,15 @@ void FillArray(const int64_t& size64, int64_t* myArray)
 }
 
 int64_t* arraIntMin(int64_t* array, size_t size) {
-	int64_t* min = &array[0];
+	int64_t* min64 = &array[0];
 	for (size_t i = 1; i < size; i++)
 	{
-		if (array[i] < *min)
+		if (array[i] < *min64)
 		{
-			min = &array[i];
+			min64 = &array[i];
 		}
 	}
-	return min;
+	return min64;
 }
 
 void perform(int64_t* min)
