@@ -2,8 +2,9 @@
 #include <inttypes.h>
 #include <stdlib.h>
 
-void FillArray(const int64_t& size64, int64_t& element64, int64_t* myArray)
+void FillArray(const int64_t& size64, int64_t* myArray)
 {
+	int64_t element64 = 0;
 	for (size_t i = 0; i < size64; i++)
 	{
 		printf("Fill in the array: ");
