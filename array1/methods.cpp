@@ -25,7 +25,7 @@ int64_t* arraIntMin(int64_t* array, size_t size) {
 	return min64;
 }
 
-void perform(int64_t* min)
+void perform(int64_t* min64)
 {
-	printf("Minimum array element = %d", *min);
+	printf("Minimum array element = %d", *min64);
 }
